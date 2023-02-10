@@ -1,7 +1,13 @@
 {
   "name": "import-map-demo",
   "version": "0.1.0",
+  "scripts": {
+    "dev": "http-server --port 9000 --cors"
+  },
   "dependencies": {
-    "lodash-es": "^4.17.15"
+    "lodash-es": "4.17.15"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
   }
 }
